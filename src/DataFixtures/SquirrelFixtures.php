@@ -12,7 +12,7 @@ class SquirrelFixtures extends Fixture
         {
             for ($i = 0; $i < 5; $i++) {
                 $squirrel = new Squirrel();
-                $squirrel->setName('name' . $i);
+                $squirrel->setName('Ecureuil ' . $i);
                 $manager->persist($squirrel);
             }
             $manager->flush();
